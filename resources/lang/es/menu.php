@@ -1,0 +1,32 @@
+<?php
+
+return array(
+    'dashboard' => 'Salpicadero',
+    'rental' => 'Alquiler',
+    'rentalNew' => 'Nueva orden de alquiler',
+    'rentalManage' => 'Gestionar pedidos de alquiler',
+    'tickets' => 'Entradas',
+    'ticketNew' => 'Nuevo boleto',
+    'ticketsManage' => 'Administrar boletos',
+    'contactUs' => 'Contactos',
+    'inventory' => 'Inventario',
+    'inventoryManage' => 'Administrar',
+    'categories' => 'Categorías',
+    'users' => 'Usuarios',
+    'themeSettings' => 'Theme Settings',
+    'mailSetting' => 'Configuración de correo',
+    'smsSetting' => 'Configuración de SMS',
+    'reports' => 'Informes',
+    'reportMonthly' => 'Pedidos por mes',
+    'reportSales' => 'Reporte de ventas',
+    'equipments' => 'Equipos',
+    'admin' => 'Administración',
+    'hospitals' => 'Hospitales',
+    'hospitalStaff' => 'Personal del hospital',
+    'costCenter' => 'Centro de costo',
+    'settings' => 'Ajustes',
+    'permissions' => 'Permisos',
+    'companySetting' => 'Configuración de la empresa',
+    'logout' => 'Cerrar sesión',
+    'placeCall' => 'Realizar pedido llamar'
+);

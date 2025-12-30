@@ -1,0 +1,79 @@
+# Laravel Framework
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Laravel specific
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/app/*
+!/storage/app/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Testing
+/coverage
+.phpunit.cache
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Build files
+/public/mix-manifest.json
+/public/js
+/public/css
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# Documentation files to exclude (conversion/internal docs)
+# Exclude conversion documentation files created during development
+CONVERSION_SUMMARY.md
+README_DEMO_CONVERSION.md
+
+# Exclude internal Docker documentation
+docker/README.md
+
+# Keep these documentation files (explicitly allow)
+# Main project documentation
+!README.md
+!readme.md
+!DOCKER_SETUP.md
+
