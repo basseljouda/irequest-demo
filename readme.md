@@ -9,6 +9,7 @@ A comprehensive medical equipment rental management system designed for hospital
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Screenshots](#screenshots)
 - [Core Workflows](#core-workflows)
 - [Architecture](#architecture)
 - [Technology Stack](#technology-stack)
@@ -32,6 +33,41 @@ iRequest is a full-featured medical equipment rental management system that stre
 - **Analytics & Reporting**: Comprehensive dashboards with KPIs, revenue analytics, and forecasting
 - **Multi-tenant Architecture**: Support for hospitals, IDNs (Integrated Delivery Networks), and cost centers
 - **Role-based Access Control**: Granular permissions for different user roles (admin, staff, managers)
+
+---
+
+## 📸 Screenshots
+
+### Authentication & Dashboard
+![Login Page](screenshots/login.png)
+*User authentication interface*
+
+![Dashboard Overview](screenshots/dashboard1.png)
+*Main dashboard with KPIs and analytics*
+
+![Dashboard Analytics](screenshots/dashboard2.png)
+*Detailed analytics and reporting dashboard*
+
+### Order Management
+![Orders List](screenshots/orders.png)
+*Orders management interface with DataTables*
+
+![Order Details](screenshots/order.png)
+*Individual order details and status tracking*
+
+### Inventory & Reports
+![Inventory Management](screenshots/inventory.png)
+*Inventory and asset tracking system*
+
+![Reports Overview](screenshots/report1.png)
+*Comprehensive reporting interface*
+
+![Detailed Reports](screenshots/reports2.png)
+*Advanced reporting with filtering options*
+
+### Administration
+![Roles & Permissions](screenshots/roles_permissions.png)
+*Role-based access control management*
 
 ---
 
@@ -480,6 +516,7 @@ This is a demo skeleton for portfolio purposes. The original production codebase
 ## 👤 Author
 
 Basel Jouda
+
 Portfolio project - Demo skeleton of a production medical equipment rental management system.
 
 **Note**: This demo skeleton is for portfolio demonstration only. All business logic, sensitive data, and production configurations have been removed or replaced with dummy data.
