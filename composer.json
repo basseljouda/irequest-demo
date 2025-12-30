@@ -6,6 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=7.3 <8.0",
+        "ramsey/uuid": "^3.9",
         "anhskohbo/no-captcha": "~3.3",
         "armetiz/airtable-php": "^0.4.2",
         "barryvdh/laravel-dompdf": "^0.9.0",
@@ -78,10 +79,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
-        ],
+        "post-autoload-dump": [],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
